@@ -1,0 +1,4 @@
+#!/bin/sh
+rsync -avu ../polytope/dist/ ./
+git commit -a -m "no comment"
+git push -u origin main
